@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+
+<body>
+    <h1>Sample SL Web Tools (ZBDongle-E)</h1>
+
+    <div id="main" style="display: none;">
+
+        <br>
+        <script 
+            type="module" 
+            src="https://unpkg.com/@nabucasa/sl-web-tools@0.10.0/dist/web/nabucasa-zigbee-flasher.js?module">
+        </script>
+
+        <nabucasa-zigbee-flasher manifest="./manifests/zbdongle-e.json">
+            <span slot="button">Connect</span>
+        </nabucasa-zigbee-flasher>
+        <br>
+        <span>NOTE: Make sure to close anything using your devices com port (e.g. Serial monitor)</span>
+    </div>
+    <div id="notSupported" style="display: none;">
+        Your browser does not support the Web Serial API. Try Chrome
+    </div>
+
+    <script>
+        if(navigator.serial){
+            document.getElementById("notSupported").style.display = 'none';
+            document.getElementById("main").style.display = 'block';
+        } else {
+            document.getElementById("notSupported").style.display = 'block';
+            document.getElementById("main").style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>
