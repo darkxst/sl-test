@@ -14,10 +14,22 @@
 	],
 	"firmwares": [
 		{
+			"name": "Zigbee (EZSP)",
+			"url": "https://raw.githubusercontent.com/darkxst/silabs-firmware-builder/ZBDongle-E/firmware_builds/ncp-uart-hw-zbdonglee.gbl",
+			"type": "ncp-uart-hw",
+			"version": "7.2.2.0"
+		},
+		{
 			"name": "Multi-PAN (RCP)",
-			"url": "https://raw.githubusercontent.com/skgsergio/silabs-multiprotocol-firmware-zbgw04-usb/main/firmware/ZB-GW04_v1.1_GeckoSDK_v4.2.2_rcp-uart-802154_nohwfc_115200.gbl",
+			"url": "https://raw.githubusercontent.com/darkxst/silabs-firmware-builder/ZBDongle-E/firmware_builds/rcp-uart-802154-zbdonglee-460.gbl",
 			"type": "rcp-uart-802154",
 			"version": "4.2.2"
+		},
+		{
+			"name": "OpenThread",
+			"url": "https://raw.githubusercontent.com/darkxst/silabs-firmware-builder/ZBDongle-E/firmware_builds/ot-rcp-zbdonglee-460.gbl",
+			"type": "ot-rcp",
+			"version": "2.2.2.0"
 		}
 	],
 	"allow_custom_firmware_upload": true
