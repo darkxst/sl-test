@@ -19,16 +19,14 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Silabs Firmware Flasher
-email: your-email@example.com
+#email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Web based flasher for ZB-GW04 and ZBDongle-E. MultiPAN RCP firmware enables these devices to be used with Silabs Multiprotocol Addon
+  in Home Assistant. Allow Zigbee and Thread to co-exist on the same dongle. Get ahead of the tech an experiment with Matter!
 domain: darkxst.github.io
 url: https://darkxst.github.io
 baseurl: "/sl-test/" # the subpath of your site, e.g. /blog
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  darkxst
 
 # Build settings
 theme: minima
