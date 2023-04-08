@@ -1,0 +1,36 @@
+{
+	"product_name": "ZB-GW04 v1.1",
+	"baudrates": {
+		"bootloader": [115200],
+		"cpc": [460800, 115200, 230400],
+		"ezsp": [115200],
+		"spinel": [460800]
+	},
+	"usb_filters": [
+		{
+			"pid": 29987,
+			"vid": 6790
+		}
+	],
+	"firmwares": [
+		{
+			"name": "Zigbee (EZSP)",
+			"url": "https://raw.githubusercontent.com/darkxst/silabs-firmware-builder/ZBDongle-E/firmware_builds/ncp-uart-hw-zb-gw04-1v1.gbl",
+			"type": "ncp-uart-hw",
+			"version": "7.2.2.0"
+		},
+		{
+			"name": "Multi-PAN (RCP)",
+			"url": "https://raw.githubusercontent.com/darkxst/silabs-firmware-builder/ZBDongle-E/firmware_builds/rcp-uart-802154-zb-gw04-1v1-460.gbl",
+			"type": "rcp-uart-802154",
+			"version": "4.2.2"
+		},
+		{
+			"name": "OpenThread",
+			"url": "https://raw.githubusercontent.com/darkxst/silabs-firmware-builder/ZBDongle-E/firmware_builds/ot-rcp-zb-gw04-1v1-460.gbl",
+			"type": "ot-rcp",
+			"version": "2.2.2.0"
+		}
+	],
+	"allow_custom_firmware_upload": true
+}
