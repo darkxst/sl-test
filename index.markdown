@@ -13,18 +13,19 @@ Supported devices:
 
 It will install the most recent builds from [ksjh/silabs-firmware-builder](https://github.com/ksjh/silabs-firmware-builder)  
 
+### Start by clicking `Connect` for your device below.
+
 You can select from these firmware:
 * EZSP - Standard Zigbee (NCP) firmware - Baudrate 115200
 * MultiPAN RCP - Zigbee + Thread for Silabs Multiprotocol Addon - Baudrate 460800
 * Openthread RCP - Thread Only - Baudrate 460800
 * Upload Custom - Provide a custom .gbl firmware file
 
-### Start by selecting `Connect` for your device below.
-
-*NOTE: Make sure to close anything using your devices serial port (e.g. ZHA, Zigbee2MQTT, Silabs Multiprotocol Add-on)*
+***NOTE:** Make sure to close anything using your devices serial port (e.g. ZHA, Zigbee2MQTT, Silabs Multiprotocol Add-on)*
 
 > Your browser does not support the WebSerial API. Try Chrome or Edge instead.
-{: #notSupported }
+{: #notSupported .hidden .serialErr }
+
 
 -----
 
@@ -71,9 +72,7 @@ Easyiot ZB-GW04 Revision v1.1 - No flow control
 
 
 <script>
-    if(navigator.serial){
-        document.getElementById("notSupported").classList.add('hidden');
-    } else {
+    if(!navigator.serial){
         const buttons = document.querySelectorAll('.Supported');
 
         buttons.forEach(element => {
