@@ -73,11 +73,11 @@ Easyiot ZB-GW04 Revision v1.1 - No flow control
 
 <script>
     if(!navigator.serial){
-        const buttons = document.querySelectorAll('.Supported');
+        // const buttons = document.querySelectorAll('.Supported');
 
-        buttons.forEach(element => {
-            element.classList.add('hidden');
-        });
+        // buttons.forEach(element => {
+        //     element.classList.add('hidden');
+        // });
         document.getElementById("notSupported").classList.remove('hidden');
     }
 </script>
