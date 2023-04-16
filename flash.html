@@ -17,19 +17,15 @@
             <span slot="button">Connect</span>
         </nabucasa-zigbee-flasher>
         <br>
-        <span>NOTE: Make sure to close anything using your devices com port (e.g. Serial monitor)</span>
+        <span>NOTE: Make sure to close anything using your devices serial port</span>
     </div>
     <div id="notSupported" style="display: none;">
-        Your browser does not support the Web Serial API. Try Chrome
+        Your browser does not support the WebSerial API. Try Chrome or Edge browsers.
     </div>
 
     <script>
-        if(navigator.serial){
-            document.getElementById("notSupported").style.display = 'none';
-            document.getElementById("main").style.display = 'block';
-        } else {
+        if(!navigator.serial){
             document.getElementById("notSupported").style.display = 'block';
-            document.getElementById("main").style.display = 'none';
         }
     </script>
 </body>
