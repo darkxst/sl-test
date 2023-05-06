@@ -11,14 +11,14 @@ Supported devices:
 * Sonoff ZBDongle-E
 * Easyiot ZB-GW04
 
-It will install the most recent builds from [ksjh/silabs-firmware-builder](https://github.com/ksjh/silabs-firmware-builder)  
+It will install the most recent builds from [darkxst/silabs-firmware-builder](https://github.com/darkxst/silabs-firmware-builder)  
 
 ### Start by clicking `Connect` for your device below.
 
 You can select from these firmware:
 * EZSP - Standard Zigbee (NCP) firmware - Baudrate 115200
-* MultiPAN RCP - Zigbee + Thread for Silabs Multiprotocol Addon - Baudrate 460800
-* Openthread RCP - Thread Only - Baudrate 460800
+* MultiPAN RCP - Zigbee + Thread for Silabs Multiprotocol Addon - Baudrate 460800 (230400 for ZB-GW04)
+* Openthread RCP - Thread Only - Baudrate 460800 (230400 for ZB-GW04)
 * Upload Custom - Provide a custom .gbl firmware file
 
 ***NOTE:** Make sure to close anything using your devices serial port (e.g. ZHA, Zigbee2MQTT, Silabs Multiprotocol Add-on)*
@@ -30,7 +30,7 @@ You can select from these firmware:
 -----
 
 ## ZBDongle-E
-Sonoff Zigbee 3.0 USB Dongle Plus V2  
+Sonoff Zigbee 3.0 USB Dongle Plus V2 - No hardware flow control  
 ![ZBDongle-E](./assets/images/dongle-e.png)
 <div class="Supported">
     <nabucasa-zigbee-flasher manifest="./assets/manifests/zbdongle-e.json">
