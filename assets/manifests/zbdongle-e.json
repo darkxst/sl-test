@@ -15,21 +15,21 @@
 	"firmwares": [
 		{
 			"name": "Zigbee (EZSP)",
-			"url": "https://raw.githubusercontent.com/darkxst/silabs-firmware-builder/main/firmware_builds/zbdonglee/ncp-uart-hw-v7.2.3.0-zbdonglee-115200.gbl",
+			"url": "https://raw.githubusercontent.com/darkxst/silabs-firmware-builder/main/firmware_builds/zbdonglee/ncp-uart-hw-v7.3.0.0-zbdonglee-115200.gbl",
 			"type": "ncp-uart-hw",
-			"version": "7.2.3.0"
+			"version": "7.3.0.0"
 		},
 		{
 			"name": "Multi-PAN (RCP)",
-			"url": "https://raw.githubusercontent.com/darkxst/silabs-firmware-builder/main/firmware_builds/zbdonglee/rcp-uart-802154-v4.2.3-zbdonglee-460800.gbl",
+			"url": "https://raw.githubusercontent.com/darkxst/silabs-firmware-builder/main/firmware_builds/zbdonglee/rcp-uart-802154-v4.3.0-zbdonglee-460800.gbl",
 			"type": "rcp-uart-802154",
-			"version": "4.2.3"
+			"version": "4.3.0"
 		},
 		{
 			"name": "OpenThread",
-			"url": "https://raw.githubusercontent.com/darkxst/silabs-firmware-builder/main/firmware_builds/zbdonglee/ot-rcp-v2.2.3.0-zbdonglee-460800.gbl",
+			"url": "https://raw.githubusercontent.com/darkxst/silabs-firmware-builder/main/firmware_builds/zbdonglee/ot-rcp-v2.3.0.0-zbdonglee-460800.gbl",
 			"type": "ot-rcp",
-			"version": "2.2.3.0"
+			"version": "2.3.0.0"
 		}
 	],
 	"allow_custom_firmware_upload": true
