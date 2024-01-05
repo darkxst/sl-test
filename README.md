@@ -1,6 +1,6 @@
 # Proof of concept SL Web Tools site
 
-Visit https://darkxst.github.io/sl-test/
+Visit https://darkxst.github.io/silabs-firmware-builder/
 
 Implementation is as simple as adding the following html to your page.
 

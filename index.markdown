@@ -5,6 +5,11 @@
 layout: home
 ---
 
+**NOTE:** This page is deprecated and will no longer receive updates, please use below site for future updates:
+
+[https://darkxst.github.io/silabs-firmware-builder/](https://darkxst.github.io/silabs-firmware-builder/)
+
+
 This page allows you to flash Silicon Labs EFR32MG21 based Zigbee dongles directly from your Chrome-based browser.
 
 Supported devices:
