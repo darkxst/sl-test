@@ -1,6 +1,6 @@
 # Github Pages SL Web Tools Proof of Concept
 
-Visit https://darkxst.github.io/sl-test/
+Visit https://darkxst.github.io/silabs-firmware-builder/
 
 Supported devices:
 - ZBDongle-E
